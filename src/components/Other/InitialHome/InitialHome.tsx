@@ -25,12 +25,15 @@ const techStackData = [
   { name: 'PostgreSQL', category: 'database', featured: false },
   { name: 'MySQL', category: 'database', featured: false },
   { name: 'Docker', category: 'devops', featured: false },
+  { name: 'Google Cloud', category: 'devops', featured: false },
   { name: 'Git', category: 'tools', featured: false },
   { name: 'GitHub', category: 'tools', featured: false },
   { name: 'Gitlab', category: 'tools', featured: false },
   { name: 'Postman', category: 'tools', featured: false },
   { name: 'Wavemaker', category: 'tools', featured: false },
   { name: 'Eclipse', category: 'tools', featured: false },
+  { name: 'VirtualBox', category: 'tools', featured: false },
+  { name: 'DBeaver', category: 'tools', featured: false },
 ];
 
 import {
@@ -252,7 +255,7 @@ const InitialHome = () => {
   }, [techStackExpanded]);
 
   return (
-    <section className="pt-12 md:pt-24 xl:py-24 xl:pt-0 mb-10 relative">
+    <section className="pt-12 md:pt-24 xl:py-24 xl:pt-0 mb-10 xl:mb-[250px] relative">
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0 opacity-20">
         <div className="absolute top-16 left-16 w-64 h-64 rounded-full bg-primary/20 blur-3xl"></div>
         <div className="absolute bottom-16 right-16 w-96 h-96 rounded-full bg-secondary/20 blur-3xl"></div>

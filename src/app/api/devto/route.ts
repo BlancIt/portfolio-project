@@ -9,7 +9,7 @@ export async function GET(request: NextRequest) {
   try {
     // Get the username from query parameters or use default
     const { searchParams } = new URL(request.url);
-    const username = searchParams.get("username") || "mhaikalb";
+    const username = searchParams.get("username") || "BlancIt";
 
     // Fetch posts from DEV.to API with timestamp to bypass cache
     const timestamp = Date.now();

@@ -87,7 +87,7 @@ const GithubActivity = () => {
 
           <div className="mt-6 text-center">
             <motion.a
-              href="https://github.com/mhaikalb"
+              href="https://github.com/BlancIt"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm text-white/50 hover:text-primary transition-colors border border-primary/20 rounded-md px-4 py-2 hover:bg-primary/10"

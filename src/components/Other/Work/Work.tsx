@@ -58,7 +58,7 @@ const Work = () => {
       setIsLoading(true);
 
       // Usar o nome de usuário GitHub das variáveis de ambiente ou valor padrão
-      const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME || "mhaikalb";
+      const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME || "BlancIt";
 
       // Fazer chamada à API para buscar projetos do GitHub com tag "highlight"
       const response = await fetch(
@@ -191,44 +191,11 @@ const Work = () => {
             LATEST PROJECTS
           </h2>
           <p className="text-justify text-sm mb-8 leading-relaxed lg:mt-20 ">
-            Each project reflects a commitment to{" "}
-            <span className="text-primary font-medium">innovation</span>,{" "}
-            <span className="text-primary font-medium">efficiency</span> and an
-            exceptional user experience, demonstrating comprehensive skills and
-            a deep understanding of modern development needs.
+            Here are some of my projects, be it personal or assignments. They reflect my commitment to{" "}
+            <span className="text-primary font-medium">learning</span>,{" "}
+            <span className="text-primary font-medium">problem-solving</span>, and{" "}
+            <span className="text-primary font-medium">teamwork</span>. You can see more of my projects by clicking the button below.
           </p>
-
-          <div className="mb-8 w-full">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <motion.div
-                variants={fadeInUp}
-                className="flex items-start py-4 p-3 rounded-lg border border-white/10 bg-white/5 backdrop-blur-sm"
-              >
-                <RiCodeBoxLine className="text-primary text-xl mt-1 mr-1 w-20" />
-                <div>
-                  <h3 className="font-medium mb-1">Front-End Expertise</h3>
-                  <p className="text-xs text-white/70">
-                    Advanced interfaces with React, Next.js and sophisticated
-                    animations
-                  </p>
-                </div>
-              </motion.div>
-
-              <motion.div
-                variants={fadeInUp}
-                className="flex items-start p-3 rounded-lg border border-white/10 bg-white/5 backdrop-blur-sm"
-              >
-                <RiDatabase2Line className="text-primary text-xl mt-1 mr-1 w-20" />
-                <div>
-                  <h3 className="font-medium mb-1">Robust Back-End</h3>
-                  <p className="text-xs text-white/70">
-                    Efficient APIs, optimized databases and scalable
-                    architecture
-                  </p>
-                </div>
-              </motion.div>
-            </div>
-          </div>
 
           <Link
             className="mt-auto group mx-auto"

@@ -203,114 +203,56 @@ const FrontendExpertise = () => {
             Frontend Expertise
           </motion.h2>
           <motion.p variants={fadeInUp} className="text-lg">
-            Modern, responsive interfaces and captivating animations for an
-            exceptional user experience
+            Building modern, responsive interfaces with JavaScript frameworks
+            and utility-first styling
           </motion.p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20 relative">
           <FrontendCard
-            icon={<RiLayout2Line />}
-            title="UI/UX Design"
-            description="Creation of elegant interfaces focused on user experience, following design principles and accessibility guidelines."
+            icon={<RiCodeSSlashLine />}
+            title="JavaScript"
+            description="Core expertise in modern JavaScript (ES6+), DOM manipulation, async programming, and building dynamic web interfaces."
             delay={0.1}
           />
 
           <FrontendCard
-            icon={<RiCodeSSlashLine />}
-            title="React & Next.js"
-            description="Development of applications with React and Next.js, using best practices and modern patterns."
+            icon={<RiLayout2Line />}
+            title="React"
+            description="Building component-based UIs with React, managing state, hooks, and creating reusable, maintainable frontend architectures."
             delay={0.2}
           />
 
           <FrontendCard
             icon={<RiMagicLine />}
-            title="Advanced Animations"
-            description="Implementation of fluid and interactive animations that elevate the user experience to a new level."
+            title="Vue.js"
+            description="Developing reactive single-page applications with Vue.js, leveraging its ecosystem for efficient frontend development."
             delay={0.3}
           />
 
           <FrontendCard
-            icon={<RiSmartphoneLine />}
-            title="Responsive Design"
-            description="Interfaces that adapt perfectly to any device, ensuring a consistent experience."
+            icon={<RiPaintBrushLine />}
+            title="Tailwind CSS"
+            description="Rapid UI development with utility-first CSS, creating responsive and consistent designs with Tailwind CSS."
             delay={0.4}
           />
 
           <FrontendCard
-            icon={<RiSpeedLine />}
-            title="Performance"
-            description="Optimization of loading, rendering, and interactivity for fast and efficient websites."
+            icon={<RiSmartphoneLine />}
+            title="Bootstrap"
+            description="Building responsive, mobile-first layouts with Bootstrap's grid system and pre-built components."
             delay={0.5}
           />
 
           <FrontendCard
-            icon={<RiPaintBrushLine />}
-            title="Advanced CSS"
-            description="Mastery of Tailwind CSS, Styled Components, CSS Modules, animations, and custom transitions."
+            icon={<RiSpeedLine />}
+            title="Wavemaker"
+            description="Enterprise low-code development with Wavemaker, building full-featured web applications with rapid delivery."
             delay={0.6}
           />
         </div>
 
-        <motion.div
-          variants={staggerContainer}
-          initial="initial"
-          animate={controls}
-          className="grid grid-cols-1 lg:grid-cols-2 gap-12"
-        >
-          <motion.div
-            variants={fadeInLeft}
-            className="space-y-6 order-2 lg:order-1"
-          >
-            <h3 className="text-2xl font-bold">Impactful Visual Experience</h3>
-            <p className="text-justify text-white/80">
-              My focus is on creating interfaces that not only function
-              perfectly but also delight users with fluid animations, responsive
-              design, and high performance.
-            </p>
-
-            <div className="space-y-3">
-              <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-secondary rounded-full"></div>
-                <span>Interactive and responsive interfaces</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-secondary rounded-full"></div>
-                <span>Advanced animations and micro-interactions</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-secondary rounded-full"></div>
-                <span>Scalable component architecture</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-secondary rounded-full"></div>
-                <span>Progressive Web Applications (PWA)</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-secondary rounded-full"></div>
-                <span>SEO and accessibility optimization</span>
-              </div>
-            </div>
-          </motion.div>
-
-          <motion.div
-            variants={fadeInRight}
-            className="bg-white/10 backdrop-blur-sm rounded-lg border border-white/10 p-6 shadow-2xl overflow-visible order-1 lg:order-2"
-          >
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-3 h-3 rounded-full bg-red-500"></div>
-              <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-              <div className="w-3 h-3 rounded-full bg-green-500"></div>
-              <div className="ml-2 text-xs text-white/60">
-                AnimatedComponent.tsx
-              </div>
-            </div>
-            <pre
-              ref={codeRef}
-              className="text-xs text-white font-mono overflow-x-auto whitespace-pre-wrap p-4 rounded-lg h-[350px] code-example bg-black/70"
-            ></pre>
-          </motion.div>
-        </motion.div>
+        {/* Impactful Visual Experience section hidden */}
       </div>
     </section>
   );

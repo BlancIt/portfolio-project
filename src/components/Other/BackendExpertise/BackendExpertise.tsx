@@ -129,8 +129,8 @@ Ready to handle requests...`;
             Back-End Expertise
           </motion.h2>
           <motion.p variants={fadeInUp} className="text-lg">
-            Robust, secure and scalable architectures for high-performance
-            applications
+            Building robust server-side applications with Java Spring, Python,
+            Node.js, and containerized deployments
           </motion.p>
         </motion.div>
 
@@ -149,103 +149,48 @@ Ready to handle requests...`;
           />
           <BackendCard
             icon={<RiServerLine />}
-            title="RESTful API"
-            description="API development following best standards and practices, with complete documentation via Swagger/OpenAPI."
+            title="Java Spring"
+            description="Building enterprise-grade backend services and RESTful APIs with Spring Boot, Spring Security, and Spring Data."
             delay={0.1}
           />
 
           <BackendCard
-            icon={<RiDatabase2Line />}
-            title="Databases"
-            description="Expertise in SQL and NoSQL, efficient data modeling, optimized queries, and cache implementation."
+            icon={<RiTerminalBoxLine />}
+            title="Python"
+            description="Server-side development and scripting with Python, building APIs and automation tools for various use cases."
             delay={0.2}
           />
 
           <BackendCard
-            icon={<RiSecurePaymentLine />}
-            title="Security"
-            description="Implementation of JWT authentication, OAuth, protection against SQL injection and other common attacks."
+            icon={<RiCodeSSlashLine />}
+            title="Node.js"
+            description="Building scalable server-side applications with Node.js and Express, handling async operations and REST APIs."
             delay={0.3}
           />
 
           <BackendCard
-            icon={<RiTerminalBoxLine />}
-            title="Microservices"
-            description="Distributed architecture, service communication, load balancing, and system resilience."
+            icon={<RiSecurePaymentLine />}
+            title="Laravel"
+            description="Full-featured web application development with Laravel, leveraging its elegant syntax and built-in tooling."
             delay={0.4}
           />
 
           <BackendCard
-            icon={<RiCloudLine />}
-            title="Cloud & DevOps"
-            description="Deployment on AWS, Azure, containerization with Docker, orchestration with Kubernetes, CI/CD."
+            icon={<RiDatabase2Line />}
+            title="PostgreSQL & MySQL"
+            description="Database design, query optimization, and data modeling with both PostgreSQL and MySQL for reliable data storage."
             delay={0.5}
           />
 
           <BackendCard
-            icon={<RiCodeSSlashLine />}
-            title="Advanced Node.js"
-            description="Mastery of Express, NestJS, asynchronous processes, streams, workers, and performance optimization."
+            icon={<RiCloudLine />}
+            title="Docker"
+            description="Containerizing applications with Docker for consistent development, testing, and deployment environments."
             delay={0.6}
           />
         </div>
 
-        <motion.div
-          variants={staggerContainer}
-          initial="initial"
-          animate={controls}
-          className="grid grid-cols-1 lg:grid-cols-2 gap-12 "
-        >
-          <motion.div
-            variants={fadeInLeft}
-            className="bg-white/10 rounded-lg border border-white/10 p-6 shadow-2xl overflow-visible"
-          >
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-3 h-3 rounded-full bg-red-500"></div>
-              <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-              <div className="w-3 h-3 rounded-full bg-green-500"></div>
-              <div className="ml-2 text-xs text-white/60">server.js</div>
-            </div>
-            <ClientOnly>
-              <pre
-                ref={terminalRef}
-                className="font-mono text-xs text-green-400 bg-black/70 p-4 rounded h-[250px] overflow-y-auto"
-              ></pre>
-            </ClientOnly>
-          </motion.div>
-
-          <motion.div variants={fadeInRight} className="space-y-6">
-            <h3 className="text-2xl font-bold">System Architecture</h3>
-            <p className="text-white/80 text-justify">
-              I build backend systems focused on performance, scalability, and
-              security, using software engineering best practices to ensure
-              clean, testable, and easily maintainable code.
-            </p>
-
-            <div className="space-y-3">
-              <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span>Design patterns and SOLID principles</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span>Automated testing and TDD</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span>Layered and hexagonal architecture</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span>Distributed systems and horizontal scalability</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span>Advanced monitoring and logging</span>
-              </div>
-            </div>
-          </motion.div>
-        </motion.div>
+        {/* System Architecture section hidden */}
       </div>
     </section>
   );

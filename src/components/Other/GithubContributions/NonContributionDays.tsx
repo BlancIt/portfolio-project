@@ -18,7 +18,7 @@ interface NonContributionDaysProps {
 }
 
 const NonContributionDays = ({
-  username = "mhaikalb",
+  username = "BlancIt",
   startYear = 2023,
 }: NonContributionDaysProps) => {
   const [nonContributionData, setNonContributionData] = useState<any>(null);

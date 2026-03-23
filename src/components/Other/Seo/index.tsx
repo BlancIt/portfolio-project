@@ -25,7 +25,7 @@ const Seo = ({ title, description }: SeoInterface) => {
       <meta property="og:image:alt" content={description} />
       <meta property="og:image" content="/portfolio-blue.png" />
       <meta name="twitter:title" content="Muhammad Haikal Baihaqi" />
-      <meta name="twitter:site" content="@mhaikalb" />
+      <meta name="twitter:site" content="@BlancIt" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:image" content="/portfolio-blue.png" />
       <meta name="twitter:description" content={description} />

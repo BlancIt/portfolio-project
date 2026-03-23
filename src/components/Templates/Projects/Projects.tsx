@@ -119,7 +119,7 @@ const Projects = () => {
       setIsLoading(true);
 
       // Usar o nome de usuário GitHub das variáveis de ambiente ou valor padrão
-      const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME || "mhaikalb";
+      const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME || "BlancIt";
       const portfolioTag =
         process.env.NEXT_PUBLIC_PORTFOLIO_TAG || "portfolio-project";
 
@@ -388,7 +388,7 @@ const Projects = () => {
             MY PROJECTS
           </h2>
           <AdvancedTextAnimation
-            text="A bit of my journey as a developer. Many projects are no longer on the old site, or don't have source code access as they are private projects. Thank you for visiting, come back anytime and feel free to leave feedback in the project repository!"
+            text="This is a collection of projects from assignments, personal experiments, and professional work. Some are private, but most are open source. Feel free to explore and leave feedback!"
             animationStyle="fade"
             speed={0.02}
             once={true}

@@ -15,9 +15,9 @@ const Home = () => {
     <AdvancedTransition>
       <div className="overflow-hidden">
         <InitialHome />
-        <SmoothScrollSection>
+        {/* <SmoothScrollSection>
           <DevToPosts />
-        </SmoothScrollSection>
+        </SmoothScrollSection> */}
         <SmoothScrollSection>
           <Work />
         </SmoothScrollSection>
@@ -27,12 +27,12 @@ const Home = () => {
         <SmoothScrollSection>
           <BackendExpertise />
         </SmoothScrollSection>
-        <SmoothScrollSection>
+        {/* <SmoothScrollSection>
           <GithubActivity />
-        </SmoothScrollSection>
-        <SmoothScrollSection>
+        </SmoothScrollSection> */}
+        {/* <SmoothScrollSection>
           <Reviews />
-        </SmoothScrollSection>
+        </SmoothScrollSection> */}
       </div>
       <Analytics />
       <SpeedInsights />

@@ -11,7 +11,7 @@ export async function GET(request: NextRequest) {
     const username =
       searchParams.get("username") ||
       process.env.GITHUB_USERNAME ||
-      "mhaikalb";
+      "BlancIt";
 
 
 
