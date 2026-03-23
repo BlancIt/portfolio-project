@@ -8,27 +8,12 @@ import {
 
 export const icons = [
   {
-    path: "https://github.com/adamsnows",
+    path: "https://github.com/mhaikalb",
     name: <RiGithubFill />,
     title: "Github",
   },
   {
-    path: "https://dev.to/adamsnows",
-    name: <FaDev />,
-    title: "DEV.TO",
-  },
-  {
-    path: "https://www.instagram.com/adamsnows",
-    name: <RiInstagramFill />,
-    title: "Instagram",
-  },
-  {
-    path: "https://x.com/adamsnows",
-    name: <RiTwitterFill />,
-    title: "X",
-  },
-  {
-    path: "https://www.linkedin.com/in/adam-neves",
+    path: "https://www.linkedin.com/in/mhaikalb",
     name: <RiLinkedinFill />,
     title: "Linkedin",
   },

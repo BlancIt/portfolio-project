@@ -21,7 +21,7 @@ export default function ProjectList({
     const loadProjects = async () => {
       try {
         // Usar os valores do .env ou valores padrão
-        const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME || "adamsnows";
+        const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME || "mhaikalb";
         const portfolioTag =
           process.env.NEXT_PUBLIC_PORTFOLIO_TAG || "portfolio-project";
 

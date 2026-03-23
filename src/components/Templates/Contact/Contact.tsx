@@ -103,7 +103,7 @@ const Contact = () => {
             <motion.div variants={fadeInUp}>
               <div className="flex items-center gap-x-4 text-primary text-lg mb-4 justify-center">
                 <span className="w-[30px] h-[2px] bg-primary"></span>
-                <TextReveal text="Hey, Adam!" className="text-xl" />
+                <TextReveal text="Hey, Haikal!" className="text-xl" />
                 <span className="w-[30px] h-[2px] bg-primary"></span>
               </div>
               <h1 className="h1 mb-8">Let&apos;s Connect!</h1>
@@ -124,7 +124,7 @@ const Contact = () => {
                 duration={5}
                 distance={10}
               >
-                <a href="mailto:adamangelow@gmail.com">
+                <a href="mailto:hazama254@gmail.com">
                   <motion.div
                     whileHover={{ scale: 1.05 }}
                     className="flex flex-col items-center gap-4"
@@ -134,7 +134,7 @@ const Contact = () => {
                     </div>
                     <h3 className="text-xl font-semibold">Email</h3>
                     <span className="text-white/70 hover:text-primary transition-colors">
-                      adamangelow@gmail.com
+                      hazama254@gmail.com
                     </span>
                     <p className="text-sm text-white/50">
                       Available for inquiries 24/7

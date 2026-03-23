@@ -8,19 +8,19 @@ import {
 export const infoData = [
   {
     icon: <RiUserFill size={20} />,
-    text: "Adam Neves",
+    text: "Muhammad Haikal Baihaqi",
   },
   {
     icon: <RiMailFill size={20} />,
-    text: "adaamangelow@gmail.com",
+    text: "hazama254@gmail.com",
   },
   {
     icon: <RiGraduationCapFill size={20} />,
-    text: "Full Stack Developer",
+    text: "Software Engineer",
   },
   {
     icon: <RiHomeFill size={20} />,
-    text: "Natal, RN, Brazil",
+    text: "South Tangerang, Indonesia",
   },
 ];
 
@@ -29,14 +29,14 @@ export const qualificationData = [
     title: "education",
     data: [
       {
-        school: "Kenzie Academy Brasil",
-        qualification: "Full Stack Developer",
-        years: "Mar 2022 - Mar 2023",
+        school: "Universitas Indonesia",
+        qualification: "Bachelor Degree in Information Systems",
+        years: "Sep 2017 - Jan 2022",
       },
       {
-        school: "Centro universitário União das Américas Descomplica",
-        qualification: "Post-grad in Software Engineering",
-        years: "Jun 2023 - Dec 2023",
+        school: "PKS Digital School",
+        qualification: "Full Stack Web Development",
+        years: "2021",
       },
     ],
   },
@@ -44,97 +44,36 @@ export const qualificationData = [
     title: "experience",
     data: [
       {
-        company: "SUPER MEGAVENDAS",
-        role: "FullStack Tech Leader",
-        years: "Jan 2024 - Aug 2024",
-        location: "Natal, Rio Grande do Norte, Brazil",
+        company: "PT Solusi Kode Indonesia",
+        role: "Software Engineer",
+        years: "Mar 2022 - Present",
+        location: "South Tangerang, Indonesia",
         description: [
-          "Initiated and set up the company's development environment, ensuring a solid foundation for project growth.",
-          "Implemented agile and efficient processes, improving team collaboration and productivity.",
-          "Selected and integrated key technologies, such as NextJS, TailwindCSS, Express, and TypeORM.",
-          "Configured CI/CD pipelines for build, test, and deployment automation.",
-          "Led the development of innovative solutions, such as the SMV Flow platform and the SMVZap Chrome extension.",
-          "Improved user experience with optimized login systems and customized dashboards.",
-          "Created and optimized various resources and systems, such as dynamic panels and dashboards.",
-          "Provided technical guidance and support to the team, promoting a collaborative environment.",
+          "Developed and optimized frontend and backend code using Java, JavaScript, and Wavemaker, resulting in improved application performance and user experience.",
+          "Provided comprehensive IT support to 12 clients, ensuring minimal downtime and resolving issues promptly.",
+          "Collaborated closely with cross-functional internal teams to enhance applications, ensuring seamless and effective communication and workflow.",
         ],
         technologies: [
-          "NextJS 14",
-          "TailwindCSS",
-          "Prisma",
-          "NestJS",
-          "Docker",
-          "PostgreSQL",
-          "TypeORM",
-          "Express",
-          "Jest",
-          "React",
-          "React Native",
-          "Figma",
-          "ClickUp",
+          "Java",
+          "JavaScript",
+          "Wavemaker",
+          "Java Spring",
         ],
       },
       {
-        company: "CoderTroop",
-        role: "Frontend Developer",
-        years: "jan de 2024 - jun de 2024",
-        location: "Natal, Rio Grande do Norte, Brasil · Remoto",
+        company: "desktopIP Corporation",
+        role: "ERP Consultant Intern",
+        years: "Jun 2020 - Nov 2020",
+        location: "South Jakarta, Indonesia",
         description: [
-          "Criação de uma plataforma de entrega de comidas.",
-          "Implementação e otimização de recursos como pagamentos, planos, login e sistema de perfil.",
-          "Integração de pipeline de CI/CD, incluindo solicitações pull e revisões de código.",
-          "Resolução de problemas de UX/UI, melhorando a visualização de lista e detalhes do produto.",
+          "Consulted with the client to gain insights into their business inquiries and needs.",
+          "Assisted the internal team in creating the ERP system proposal.",
+          "Worked with other interns to test the ERP system proposal and report any bugs to the internal team.",
+          "Documented the proposal in form of manual, video, and presentation for the client's consideration.",
         ],
-        technologies: ["NextJS 14", "TailwindCSS"],
-      },
-      {
-        company: "Tootz",
-        role: "Desenvolvedor Front End",
-        years: "dez de 2022 - out de 2023",
-        location: "Natal, Rio Grande do Norte, Brasil",
-        description: [
-          "Desenvolvimento de novas plataformas como Maestria, Migtech, JA Brasil e Vivalá.",
-          "Manutenção da plataforma Brasil Junior, garantindo sua funcionalidade e otimização.",
-          "Implementação e otimização de recursos como pagamentos, planos, login, e sistemas de perfil.",
-          "Integração de pipeline de CI/CD e revisão de código.",
-          "Resolução de problemas de UX/UI, inovando a visualização de lista.",
+        technologies: [
+          "ERP Systems",
         ],
-        technologies: ["NextJS", "Bootstrap"],
-      },
-      {
-        company: "Prevlogic",
-        role: "Desenvolvedor Front End NextJS/React Native",
-        years: "abr de 2023 - mai de 2023",
-        location: "Remoto",
-        description: [
-          "Trabalhei em projetos utilizando NextJS e React Native.",
-        ],
-        technologies: ["NextJS, TailwindCSS"],
-      },
-      {
-        company: "Kenzie Academy Brasil",
-        role: "Monitoria",
-        years: "mai de 2022 - nov de 2022",
-        description: [
-          "Orientação prática de HTML, CSS, JavaScript, React e TypeScript.",
-          "Auxílio a alunos em avaliações e projetos.",
-          "Correção de avaliações e atividades dos alunos.",
-        ],
-        technologies: ["CSS", "Desenvolvimento Web"],
-      },
-      {
-        company: "Free Lancer",
-        role: "Desenvolvedor FullStack",
-        years: "jan de 2020 - abr de 2022",
-        description: [
-          "Desenvolvimento de sites e sistemas web.",
-          "Manutenção de sites e sistemas web.",
-          "Implementação de recursos como pagamentos, planos, login e sistemas de perfil.",
-          "Integração de pipeline de CI/CD e revisão de código.",
-          "Resolução de problemas de UX/UI, inovando a visualização de lista.",
-          "NextJS, Tailwind, Bootstrap, React, React Native, NodeJS, Express, Prisma, MongoDB, PostgreSQL, Docker, SQLite, Sass, Vtex.",
-        ],
-        technologies: ["CSS", "Desenvolvimento Web"],
       },
     ],
   },
@@ -145,25 +84,16 @@ export const skillsData = [
     title: "skills",
     data: [
       {
-        icons: ["HTML", "CSS", "Styled Components", "TailwindCSS"],
-      },
-      {
         icons: ["JavaScript", "TypeScript", "React", "NextJs"],
       },
       {
-        icons: ["NodeJS", "NestJS", "Express", "PrismaJs"],
+        icons: ["HTML", "CSS", "TailwindCSS"],
       },
       {
-        icons: ["Jest", "Django", "Git", "Figma"],
+        icons: ["NodeJS", "Express", "Git"],
       },
       {
-        icons: ["MongoDB", "PostgreSQL"],
-      },
-      {
-        icons: ["Docker", "SQLite"],
-      },
-      {
-        icons: ["Sass", "Vtex"],
+        icons: ["Java Spring", "PHP", "Laravel"],
       },
     ],
   },
@@ -174,25 +104,13 @@ export const skillsData = [
         imgPath: "Windows",
       },
       {
-        imgPath: "MacOS",
-      },
-      {
-        imgPath: "Linux",
-      },
-      {
         imgPath: "Vscode",
-      },
-      {
-        imgPath: "Insomnia",
       },
       {
         imgPath: "Jira",
       },
       {
         imgPath: "Notion",
-      },
-      {
-        imgPath: "Trello",
       },
     ],
   },

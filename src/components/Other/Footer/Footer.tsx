@@ -13,10 +13,10 @@ const Footer = () => {
           />
 
           <div className="text-center lg:text-start text-muted-foreground mb-3">
-            Copyright &copy; Adam Neves. All rights reserved
+            Copyright &copy; Muhammad Haikal Baihaqi. All rights reserved
           </div>
           <Link
-            href="https://github.com/adamsnows/my-portfolio"
+            href="https://github.com/mhaikalb/my-portfolio"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-white/50 hover:text-primary transition-all text-sm"

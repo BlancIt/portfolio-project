@@ -6,14 +6,14 @@
   },
   "home": {
     "hero": {
-      "greeting": "Hi, I'm Adam Neves",
-      "title": "Full Stack Developer",
-      "subtitle": "TypeScript & Python",
+      "greeting": "Hi, I'm Muhammad Haikal Baihaqi",
+      "title": "Software Engineer",
+      "subtitle": "JavaScript & Java",
       "cta": "Contact me"
     },
     "about": {
       "title": "ABOUT ME",
-      "description": "Full-stack developer specialized in TypeScript and Python, with a strong focus on creating high-performance web applications. With experience in various frameworks and technologies, I develop scalable solutions that combine clean code, elegant design, and excellent user experience."
+      "description": "Software engineer with experience in frontend and backend development, specializing in IT support, maintenance, and solutions across various industries. Experienced in building web applications using JavaScript and Java Spring. A dedicated team player with a passion for continuous learning."
     },
     "work": {
       "title": "LATEST PROJECTS",
@@ -53,7 +53,7 @@
     }
   },
   "footer": {
-    "copyright": "© 2025 Adam Neves. All rights reserved."
+    "copyright": "© 2025 Muhammad Haikal Baihaqi. All rights reserved."
   },
   "whatsapp": {
     "message": "Hello! I saw your portfolio and would like to talk."

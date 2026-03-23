@@ -58,7 +58,7 @@ const Work = () => {
       setIsLoading(true);
 
       // Usar o nome de usuário GitHub das variáveis de ambiente ou valor padrão
-      const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME || "adamsnows";
+      const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME || "mhaikalb";
 
       // Fazer chamada à API para buscar projetos do GitHub com tag "highlight"
       const response = await fetch(

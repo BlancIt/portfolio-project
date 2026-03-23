@@ -13,37 +13,24 @@ import {
 import { highlightTechArray } from './syntax-highlighter';
 
 const techStackData = [
+  { name: 'Javascript', category: 'frontend', featured: true },
   { name: 'React', category: 'frontend', featured: true },
-  { name: 'Next.js', category: 'frontend', featured: true },
-  { name: 'TypeScript', category: 'language', featured: true },
-  { name: 'Node.js', category: 'backend', featured: true },
+  { name: 'Vue.js', category: 'frontend', featured: true },
+  { name: 'Tailwind', category: 'frontend', featured: true },
+  { name: 'Bootstrap', category: 'frontend', featured: true },
+  { name: 'Java Spring', category: 'backend', featured: false },
+  { name: 'Python', category: 'backend', featured: false },
+  { name: 'Node.js', category: 'backend', featured: false },
+  { name: 'Laravel', category: 'backend', featured: false },
+  { name: 'PostgreSQL', category: 'database', featured: false },
+  { name: 'MySQL', category: 'database', featured: false },
+  { name: 'Docker', category: 'devops', featured: false },
   { name: 'Git', category: 'tools', featured: false },
   { name: 'GitHub', category: 'tools', featured: false },
-  { name: 'GitLab', category: 'tools', featured: false },
-  { name: 'Python', category: 'language', featured: true },
-  { name: 'GraphQL', category: 'backend', featured: false },
-  { name: 'Tailwind', category: 'frontend', featured: false },
-  { name: 'Sass', category: 'frontend', featured: false },
-  { name: 'FastAPI', category: 'backend', featured: false },
-  { name: 'Django', category: 'backend', featured: false },
-  { name: 'Express', category: 'backend', featured: false },
-  { name: 'NestJS', category: 'backend', featured: false },
-  { name: 'Vue', category: 'frontend', featured: false },
-  { name: 'Docker', category: 'devops', featured: false },
-  { name: 'Figma', category: 'design', featured: false },
-  { name: 'Jest', category: 'testing', featured: false },
-  { name: 'Linux', category: 'os', featured: false },
+  { name: 'Gitlab', category: 'tools', featured: false },
   { name: 'Postman', category: 'tools', featured: false },
-  { name: 'Insomnia', category: 'tools', featured: false },
-  { name: 'Figma', category: 'tools', featured: false },
-  { name: 'Vercel', category: 'hosting', featured: false },
-  { name: 'Vite', category: 'frontend', featured: false },
-  { name: 'Bootstrap', category: 'frontend', featured: false },
-  { name: 'MongoDB', category: 'database', featured: false },
-  { name: 'PostgreSQL', category: 'database', featured: false },
-  { name: 'AWS', category: 'cloud', featured: false },
-  { name: 'GCP', category: 'cloud', featured: false },
-  { name: 'GitHub Actions', category: 'ci-cd', featured: false },
+  { name: 'Wavemaker', category: 'tools', featured: false },
+  { name: 'Eclipse', category: 'tools', featured: false },
 ];
 
 import {
@@ -77,6 +64,9 @@ const InitialHome = () => {
         span.textContent = letter;
         span.style.opacity = '0';
         span.style.display = 'inline-block';
+        if (letter === ' ') {
+          span.style.width = '0.3em';
+        }
         titleRef.current?.appendChild(span);
       });
 
@@ -111,9 +101,9 @@ const InitialHome = () => {
       tools: techByCategory.tools || [],
     };
 
-    return `<span style="color:#6A9955">// Fullstack developer with diverse skills</span>
+    return `<span style="color:#6A9955">// Software engineer with diverse skills</span>
 <span style="color:#569CD6">const</span> developer = {
-  <span style="color:#9CDCFE">name</span>: <span style="color:#CE9178">'Adam Neves'</span>,
+  <span style="color:#9CDCFE">name</span>: <span style="color:#CE9178">'Muhammad Haikal Baihaqi'</span>,
   <span style="color:#9CDCFE">skills</span>: {
     <span style="color:#9CDCFE">frontend</span>: ${highlightTechArray(
       skillsObject.frontend,
@@ -286,7 +276,7 @@ const InitialHome = () => {
               mb-6 text-primary tracking-[4px] flex justify-center xl:justify-start"
             >
               <ProfessionalBadge
-                text="Full Stack Developer"
+                text="Software Engineer"
                 icon={<StackIcon size={14} />}
                 animated={true}
                 gradient={true}
@@ -295,24 +285,27 @@ const InitialHome = () => {
 
             <h1
               ref={titleRef}
-              className="text-[45px] xl:text-[60px] font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text"
+              className="text-[28px] sm:text-[36px] xl:text-[50px] font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text whitespace-nowrap"
             >
-              ADAM NEVES
+              MUHAMMAD HAIKAL BAIHAQI
             </h1>
 
             <motion.p
               variants={fadeInDown}
               className="max-w-[500px] mx-auto xl:mx-0 text-sm mb-5 leading-relaxed text-justify"
             >
-              <span className="text-primary font-semibold">FullStack</span>{' '}
-              development with a pronounced focus and enthusiasm for creating
-              powerful and innovative solutions. My experience covers both{' '}
-              <span className="text-primary font-semibold">front-end</span> and{' '}
-              <span className="text-primary font-semibold">back-end</span>,
-              allowing me to build complete and integrated applications. I am
-              constantly looking for new challenges that allow me to learn and
-              apply the latest technologies, ensuring the delivery of robust,
-              scalable, and secure products.
+              <span className="text-primary font-semibold">Software engineer</span>{' '}
+              with 4 years of experience in frontend and backend development, with
+              strong exposure to IT support, application maintenance, and enterprise
+              solutions across various industries. Experienced in building web
+              applications using{' '}
+              <span className="text-primary font-semibold">JavaScript</span> and{' '}
+              <span className="text-primary font-semibold">Java Spring</span>.
+              Currently expanding into{' '}
+              <span className="text-primary font-semibold">DevOps</span> and{' '}
+              <span className="text-primary font-semibold">cloud engineering</span>,
+              with a focus on containerization, CI/CD, and cloud infrastructure to
+              grow into a well-rounded fullstack and cloud-capable engineer.
             </motion.p>
 
             <motion.div
@@ -331,7 +324,7 @@ const InitialHome = () => {
               </Link>
               <Link
                 target="_blank"
-                href="https://drive.google.com/file/d/1-Fc_jtaHOwTODyT30z70gX7ZqK5n94vP/view?usp=sharing"
+                href="/CV_MuhammadHaikalBaihaqi.pdf"
                 aria-label="cv"
               >
                 <Button variant="secondary" className="gap-x-2 group">
@@ -386,7 +379,7 @@ const InitialHome = () => {
                   >
                     <span>
                       +{techStackData.filter((tech) => !tech.featured).length}{' '}
-                      mais
+                      more
                     </span>
                     <RiAddLine className="text-xs" />
                   </button>

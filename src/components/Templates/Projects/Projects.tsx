@@ -119,7 +119,7 @@ const Projects = () => {
       setIsLoading(true);
 
       // Usar o nome de usuário GitHub das variáveis de ambiente ou valor padrão
-      const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME || "adamsnows";
+      const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME || "mhaikalb";
       const portfolioTag =
         process.env.NEXT_PUBLIC_PORTFOLIO_TAG || "portfolio-project";
 

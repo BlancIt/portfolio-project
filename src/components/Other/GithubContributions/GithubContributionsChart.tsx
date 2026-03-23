@@ -15,7 +15,7 @@ interface GithubContributionsChartProps {
 }
 
 const GithubContributionsChart = ({
-  username = "adamsnows",
+  username = "mhaikalb",
 }: GithubContributionsChartProps) => {
   const [contributions, setContributions] = useState<Record<
     string,
