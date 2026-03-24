@@ -11,7 +11,7 @@ This portfolio is built on top of [developer-portfolio](https://github.com/adams
 - **Frontend**: Next.js 14, React 18, TypeScript, Tailwind CSS, Three.js
 - **Deployment**: Vercel (serverless edge platform)
 - **CI/CD**: GitHub Actions (lint → build → deploy to Vercel)
-- **Monitoring**: Vercel Analytics + Vercel Speed Insights
+- **Monitoring**: Vercel Speed Insights + Runtime Logs
 - **Security**: Environment-based secrets, security headers, no hardcoded credentials
 
 ## Architecture
@@ -24,8 +24,8 @@ This portfolio is built on top of [developer-portfolio](https://github.com/adams
                        │  │  (SSR/SSG) │  │  Functions  │  │
                        │  └────────────┘  └────────────┘  │
                        │  ┌────────────┐  ┌────────────┐  │
-                       │  │ Analytics  │  │   Speed     │  │
-                       │  │ Dashboard  │  │  Insights   │  │
+                       │  │  Runtime   │  │   Speed     │  │
+                       │  │   Logs     │  │  Insights   │  │
                        │  └────────────┘  └────────────┘  │
                        └──────────────────────────────────┘
                                     │
@@ -103,15 +103,19 @@ The CI/CD pipeline will automatically lint, build, and deploy to Vercel.
 
 ## Monitoring
 
-### Vercel Analytics
-- Built-in page view tracking and visitor analytics
-- Available at: Vercel Dashboard → Project → Analytics tab
-- Integrated via `@vercel/analytics` package
+### Request Logging
+- Every incoming request is logged via Next.js middleware (`middleware.ts`)
+- Logs include: timestamp, HTTP method, path, user agent, IP address, and response duration
+- Viewable at: Vercel Dashboard → Project → **Logs** tab (real-time)
 
 ### Vercel Speed Insights
-- Real-time Web Vitals monitoring (LCP, FID, CLS, TTFB)
-- Available at: Vercel Dashboard → Project → Speed Insights tab
+- Real-time Web Vitals monitoring dashboard (LCP, FID, CLS, TTFB)
+- Available at: Vercel Dashboard → Project → **Speed Insights** tab
 - Integrated via `@vercel/speed-insights` package
+
+### API Error Logging
+- All API routes log errors with `console.error` for debugging
+- Viewable in Vercel Runtime Logs
 
 ## Security Measures
 
@@ -136,6 +140,7 @@ The CI/CD pipeline will automatically lint, build, and deploy to Vercel.
 ├── monitoring/                      # Prometheus + Grafana (for VPS deployment)
 ├── docker-compose.yml               # Docker setup (for VPS deployment)
 ├── Dockerfile                       # Docker build (for VPS deployment)
+├── middleware.ts                     # Request logging middleware
 ├── vercel.json                      # Vercel configuration
 ├── next.config.mjs                  # Next.js configuration
 └── .env.example                     # Environment variables template
