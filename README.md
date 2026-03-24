@@ -54,6 +54,11 @@ Pipeline config: [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)
 | `VERCEL_PROJECT_ID` | Vercel Project ID |
 | `GH_TOKEN` | GitHub personal access token (public_repo, read:user) |
 | `GH_USERNAME` | GitHub username |
+
+### Optional GitHub Secrets
+
+| Secret | Description |
+|---|---|
 | `PORTFOLIO_TAG` | Tag to filter portfolio projects |
 | `WAKATIME_API_KEY` | WakaTime API key |
 
@@ -83,16 +88,10 @@ Go to your Vercel project dashboard → Settings → Environment Variables and a
 | `GITHUB_TOKEN` | Production |
 | `GITHUB_USERNAME` | Production |
 | `NEXT_PUBLIC_GITHUB_USERNAME` | Production |
-| `NEXT_PUBLIC_PORTFOLIO_TAG` | Production |
-| `PORTFOLIO_TAG` | Production |
-| `WAKATIME_API_KEY` | Production |
 
 ### 4. Configure GitHub Secrets
 
-1. Go to your GitHub repo → Settings → Secrets and variables → Actions
-2. Add all secrets listed in the table above
-3. Get `VERCEL_ORG_ID` and `VERCEL_PROJECT_ID` from `.vercel/project.json`
-4. Get `VERCEL_TOKEN` from [vercel.com/account/tokens](https://vercel.com/account/tokens)
+Go to your GitHub repo → Settings → Secrets and variables → Actions, then add all secrets listed on Required GitHub Secrets section.
 
 ### 5. Push to Deploy
 
