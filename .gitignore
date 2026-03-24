@@ -32,6 +32,10 @@ yarn-error.log*
 # vercel
 .vercel
 
+# monitoring data
+prometheus-data/
+grafana-data/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
