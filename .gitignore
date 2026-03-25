@@ -41,3 +41,6 @@ grafana-data/
 next-env.d.ts
 
 .vercel
+
+
+.claude
