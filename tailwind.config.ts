@@ -107,7 +107,7 @@ const config: Config = {
       backgroundImage: {
         work_project_bg: "url(/project-bg.webp)",
         contact_illustration: "url(/project-bg-2.webp)",
-        hero_shape: "url(/developer-1.webp)",
+        hero_shape: "url(/developer-1.jpg)",
       },
       backgroundSize: {
         "300%": "300% 100%",

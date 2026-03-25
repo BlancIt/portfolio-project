@@ -6,7 +6,7 @@ const HomePage = () => {
     <>
       <Seo
         description="Desenvolvedor TypeScript e Python especializado em criar soluções web modernas e eficientes. Com experiência em React, Next.js e desenvolvimento full-stack, transformo ideias em projetos inovadores com código limpo e boas práticas."
-        title="A.N | SOFTWARE ENGINEER"
+        title="MHB's Portofolio Site"
       />
       <Home />
     </>

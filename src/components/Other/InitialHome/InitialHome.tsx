@@ -419,9 +419,9 @@ const InitialHome = () => {
               <DevImg
                 alt="initial image"
                 priority
-                containerStyles="w-[510px] h-[520px] relative flex items-center"
-                containerStylesImage="w-full h-auto"
-                imgSrc="/people/adam-face.png"
+                containerStyles="w-[510px] h-[520px] relative flex items-start"
+                containerStylesImage="w-full h-auto -mt-24"
+                imgSrc="/people/face-haikal.png"
               />
             </FloatingElement>
 
