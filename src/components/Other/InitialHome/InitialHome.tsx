@@ -28,7 +28,7 @@ const techStackData = [
   { name: 'Google Cloud', category: 'devops', featured: false },
   { name: 'Git', category: 'tools', featured: false },
   { name: 'GitHub', category: 'tools', featured: false },
-  { name: 'Gitlab', category: 'tools', featured: false },
+  { name: 'GitLab', category: 'tools', featured: false },
   { name: 'Postman', category: 'tools', featured: false },
   { name: 'Wavemaker', category: 'tools', featured: false },
   { name: 'Eclipse', category: 'tools', featured: false },
@@ -316,7 +316,7 @@ const InitialHome = () => {
               className="flex flex-col gap-y-3 md:flex-row gap-x-3
               mx-auto xl:mx-0 mb-8"
             >
-              <Link href="/contact" aria-label="contact">
+              <Link href="https://mail.google.com/mail/?view=cm&to=hazama254@gmail.com" target="_blank" aria-label="contact">
                 <Button className="gap-x-2 group">
                   Contact me{' '}
                   <RiMailSendFill

@@ -21,11 +21,6 @@ export const icons = [
   {
     path: "https://gitlab.com/BlancIt",
     name: <FaGitlab />,
-    title: "Gitlab",
-  },
-  {
-    path: "mailto:hazama254@gmail.com",
-    name: <RiMailFill />,
-    title: "Gmail",
+    title: "GitLab",
   },
 ];
