@@ -297,18 +297,17 @@ const InitialHome = () => {
               variants={fadeInDown}
               className="max-w-[500px] mx-auto xl:mx-0 text-sm mb-5 leading-relaxed text-justify"
             >
-              <span className="text-primary font-semibold">Software engineer</span>{' '}
-              with 4 years of experience in frontend and backend development, with
-              strong exposure to IT support, application maintenance, and enterprise
-              solutions across various industries. Experienced in building web
-              applications using{' '}
-              <span className="text-primary font-semibold">JavaScript</span> and{' '}
-              <span className="text-primary font-semibold">Java Spring</span>.
-              Currently expanding into{' '}
+              <span className="text-primary font-semibold">Software Engineer</span>{' '}
+              with 4 years of experience delivering frontend and backend solutions
+              across enterprise and multi-client environments. Proficient in{' '}
+              <span className="text-primary font-semibold">JavaScript</span>,{' '}
+              <span className="text-primary font-semibold">Java Spring</span>, and{' '}
+              <span className="text-primary font-semibold">REST API development</span>, with hands-on involvement in production
+              deployments and issue resolution. Currently expanding into{' '}
               <span className="text-primary font-semibold">DevOps</span> and{' '}
-              <span className="text-primary font-semibold">cloud engineering</span>,
-              with a focus on containerization, CI/CD, and cloud infrastructure to
-              grow into a well-rounded fullstack and cloud-capable engineer.
+              <span className="text-primary font-semibold">cloud engineering</span>{' '}
+              through applied training and on-the-job exposure to containerization
+              and CI/CD workflows.
             </motion.p>
 
             <motion.div
