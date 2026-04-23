@@ -25,14 +25,12 @@ const techStackData = [
   { name: 'PostgreSQL', category: 'database', featured: false },
   { name: 'MySQL', category: 'database', featured: false },
   { name: 'Docker', category: 'devops', featured: false },
-  { name: 'Google Cloud', category: 'devops', featured: false },
   { name: 'Git', category: 'tools', featured: false },
   { name: 'GitHub', category: 'tools', featured: false },
   { name: 'GitLab', category: 'tools', featured: false },
   { name: 'Postman', category: 'tools', featured: false },
   { name: 'Wavemaker', category: 'tools', featured: false },
   { name: 'Eclipse', category: 'tools', featured: false },
-  { name: 'VirtualBox', category: 'tools', featured: false },
   { name: 'DBeaver', category: 'tools', featured: false },
 ];
 
