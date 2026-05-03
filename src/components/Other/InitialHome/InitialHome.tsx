@@ -296,7 +296,7 @@ const InitialHome = () => {
               className="max-w-[500px] mx-auto xl:mx-0 text-sm mb-5 leading-relaxed text-justify"
             >
               <span className="text-primary font-semibold">Software Engineer</span>{' '}
-              with 4 years of experience delivering frontend and backend solutions
+              with 4+ years of experience delivering frontend and backend solutions
               for enterprise clients across multiple industries. Proficient in{' '}
               <span className="text-primary font-semibold">JavaScript</span>,{' '}
               <span className="text-primary font-semibold">Java Spring</span>, and{' '}
