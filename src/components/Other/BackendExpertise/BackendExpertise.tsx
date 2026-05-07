@@ -4,6 +4,7 @@ import {
   RiCloudLine,
   RiCodeSSlashLine,
   RiDatabase2Line,
+  RiRocketLine,
   RiSecurePaymentLine,
   RiServerLine,
   RiTerminalBoxLine,
@@ -130,7 +131,7 @@ Ready to handle requests...`;
           </motion.h2>
           <motion.p variants={fadeInUp} className="text-lg">
             Building robust server-side applications with Java Spring, Python,
-            Node.js, and containerized deployments
+            Go, Node.js, and containerized deployments
           </motion.p>
         </motion.div>
 
@@ -162,31 +163,38 @@ Ready to handle requests...`;
           />
 
           <BackendCard
+            icon={<RiRocketLine />}
+            title="Go"
+            description="Developing high-performance, concurrent backend services with Go, leveraging its simplicity and efficiency for scalable systems."
+            delay={0.3}
+          />
+
+          <BackendCard
             icon={<RiCodeSSlashLine />}
             title="Node.js"
             description="Building scalable server-side applications with Node.js and Express, handling async operations and REST APIs."
-            delay={0.3}
+            delay={0.4}
           />
 
           <BackendCard
             icon={<RiSecurePaymentLine />}
             title="Laravel"
             description="Full-featured web application development with Laravel, leveraging its elegant syntax and built-in tooling."
-            delay={0.4}
+            delay={0.5}
           />
 
           <BackendCard
             icon={<RiDatabase2Line />}
             title="PostgreSQL & MySQL"
             description="Database design, query optimization, and data modeling with both PostgreSQL and MySQL for reliable data storage."
-            delay={0.5}
+            delay={0.6}
           />
 
           <BackendCard
             icon={<RiCloudLine />}
             title="Docker"
             description="Containerizing applications with Docker for consistent development, testing, and deployment environments."
-            delay={0.6}
+            delay={0.7}
           />
         </div>
 

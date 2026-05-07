@@ -20,6 +20,7 @@ const techStackData = [
   { name: 'Bootstrap', category: 'frontend', featured: true },
   { name: 'Java Spring', category: 'backend', featured: false },
   { name: 'Python', category: 'backend', featured: false },
+  { name: 'Go', category: 'backend', featured: false },
   { name: 'Node.js', category: 'backend', featured: false },
   { name: 'Laravel', category: 'backend', featured: false },
   { name: 'PostgreSQL', category: 'database', featured: false },
