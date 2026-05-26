@@ -298,13 +298,17 @@ const InitialHome = () => {
             >
               <span className="text-primary font-semibold">Software Engineer</span>{' '}
               with 4+ years of experience delivering frontend and backend solutions
-              for enterprise clients across multiple industries. Proficient in{' '}
+              for enterprise clients across multiple industries. Experienced across
+              multiple languages including{' '}
               <span className="text-primary font-semibold">JavaScript</span>,{' '}
-              <span className="text-primary font-semibold">Java Spring</span>, and{' '}
-              <span className="text-primary font-semibold">REST API development</span>, with hands-on involvement in production
-              deployments and incident resolution. Proven ability to collaborate
-              cross-functionally with QA, Product, and Engineering teams and
-              consistently deliver features on schedule in Agile environments.
+              <span className="text-primary font-semibold">Java (Spring)</span>,{' '}
+              <span className="text-primary font-semibold">Python</span>, and{' '}
+              <span className="text-primary font-semibold">Go</span>, with strong{' '}
+              <span className="text-primary font-semibold">REST API development</span>{' '}
+              skills and hands-on involvement in production deployments and incident
+              resolution. Proven ability to collaborate cross-functionally with QA,
+              Product, and Engineering teams and consistently deliver features on
+              schedule in Agile environments.
             </motion.p>
 
             <motion.div
